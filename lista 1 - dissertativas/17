@@ -1,0 +1,1 @@
+O método calcularSalario() é diferente entre Gerente e Atendente porque o Gerente recebe bonificação pela quantidade de visitas atraidas para o museu enquando o de Atendente recebe somente o valor do salário.
