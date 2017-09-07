@@ -16,7 +16,7 @@ Fluxo Principal:
 
 Fluxos Alternativo (2): Visitante não cadastrado
 	a. Se o visitante não possui cadastro no sistema: O atendente reporta a possibilidade de realizar cadastro
-	b. Se o visitante aceitar fazer cadastro: O sistema apresenta um formulãrio em branco para que os detalhes do visitante (nome, cpf, data nascimento, celular, email) sejam incluídos
+	b. Se o visitante aceitar fazer cadastro: O sistema apresenta um formulário padrão para que os detalhes do visitante (nome, cpf, data nascimento, celular, email) sejam incluídos
 	c. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo visitante; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação
 	d. O caso de uso retorna ao passo 2
 	
