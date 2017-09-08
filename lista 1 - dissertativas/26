@@ -1,0 +1,514 @@
+public class Acervo {
+
+	private int codigoAcervo;
+
+	private int codgoObras;
+
+	private String localAcervoFisico;
+
+	private Gerente gerente;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+
+public class Acervo {
+
+	private int codigoAcervo;
+
+	private int codgoObras;
+
+	private String localAcervoFisico;
+
+	private Gerente gerente;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class CartaoMagnetico {
+
+	private int codigoVisitante;
+
+	private int codigoCataoMagnetico;
+
+	private int nivelPermissao;
+
+	private Visitante visitante;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class ControleAcervo {
+
+	private Gerente[] gerente;
+
+	private Atendente atendente;
+
+	private Acervo acervo;
+
+	public void incluir() {
+
+	}
+
+	public void consultar() {
+
+	}
+
+	public void exclusao() {
+
+	}
+
+	public void alteracao() {
+
+	}
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+ublic class ControleExposicao {
+
+	private Exposicao[] exposicao;
+
+	private Gerente[] gerente;
+
+	private Atendente atendente;
+
+	private Obra[] obra;
+
+	public void inclusao() {
+
+	}
+
+	public void axclusão() {
+
+	}
+
+	public void alteração() {
+
+	}
+
+	public void consulta() {
+
+	}
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class ControleRestauração {
+
+	private SistemaEmpresaRestauração sistemaEmpresaRestauração;
+
+	private Restauração[] restauração;
+
+	private Gerente[] gerente;
+
+	private Obra[] obra;
+
+	public void abrirChamado() {
+
+	}
+
+	public void consultarChamado() {
+
+	}
+
+	public void concluirChamado() {
+
+	}
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class ControleVendaSouvenir {
+
+	private Estoque[] estoque;
+
+	private Gerente[] gerente;
+
+	private Atendente[] atendente;
+
+	public void movimentaçãoEstoque() {
+
+	}
+
+	public void incluir() {
+
+	}
+
+	public void gerarRelatorioProdutos() {
+
+	}
+
+	public void gerarRelatorioEstoque() {
+
+	}
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class ControleVisita {
+
+	private CartãoMagnetico[] cartãoMagnetico;
+
+	private Pagamento[] pagamento;
+
+	private Atendente[] atendente;
+
+	public boolean cadastrarVisitante() {
+		return false;
+	}
+
+	public void liberarCartaoMagnetico() {
+
+	}
+
+	public boolean recebePagamento() {
+		return false;
+	}
+
+	public void consultaCadastro() {
+
+	}
+    
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Escultura extends Obra {
+
+	public void validarLocal(Sala sala) {
+
+	}
+
+}
+public class Estoque {
+
+	private int codigo;
+
+	private EnumMovimentação tipoMovimentação;
+
+	private Gerente gerente;
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+
+public class Exposicao {
+
+	private int codigo;
+
+	private String nome;
+
+	private Date dataInicio;
+
+	private Date dataTermino;
+
+	private int capacidadeMaximoVIsitantes;
+
+	private Obra[] obra;
+
+	private Sala[] sala;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+
+public class FormAcervo {
+
+	private ControleAcervo controleAcervo;
+    
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class FormExposição {
+
+	private ControleExposição controleExposição;
+    
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class FormRestauração {
+
+	private ControleRestauração controleRestauração;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class FormVendaSouvenir {
+
+	private ControleVendaSouvenir controleVendaSouvenir;
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class FormVisita {
+
+	private ControleVisita controleVisita;
+    
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Gerente {
+
+    private String nome;
+
+	private int codFuncionario;
+
+	private int cpf;
+
+	private Date datasNasc;
+
+	private double salario;
+
+	private String cargo;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+
+}
+public class Obra {
+
+	private int codigoObras;
+
+	private TipoObra tipoObra;
+
+	private String autor;
+
+	private String dadosBiograficos;
+
+	private String titulo;
+
+	private Date dataObra;
+
+	private String tecnica;
+
+	private StatusObra statusObra;
+
+	private Acervo acervo;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Pagamento {
+
+	private EnumPagamento tipoPagamento;
+
+	private float valorPagamento;
+
+	private Visitante[] visitante;
+
+	public void validaPagamento() {
+
+	}
+
+	public void calculoDesconto() {
+
+	}
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Quadro extends Obra {
+
+	public void validarLocal(Sala sala) {
+
+	}
+
+}
+public class Restauracao {
+
+	private int codigoServiço;
+
+	private String descriçãoServico ;
+
+	private int codigoEmpresaRestauração;
+
+	private Date dataInicio;
+
+	private Date dataPrevisaoTermino;
+
+	private int codigoObra;
+
+	private float valorOrcado;
+
+	private String responsavelRestauração;
+
+	private Gerente gerente;
+
+	private Obra obra;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Sala {
+
+	private int codigoSala;
+
+	private int capacidadeMaxima;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Souvinier {
+
+	private int codigo;
+
+	private String nome;
+
+	private float preço;
+
+	private String observeção;
+
+	private String descrição;
+
+	private Estoque[] estoque;
+    
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class Visitante {
+
+	private String nome;
+
+	private int cpf;
+
+	private Data dataNasc;
+
+	private String celular;
+
+	private String email;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
